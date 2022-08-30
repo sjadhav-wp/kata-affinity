@@ -1,7 +1,7 @@
 # kata-affinity
 Coding kata for calculating the affinity between two web pages.
 
-### Context
+## Context
 A web server logs page views in a log file.  
 The log file consists of a line per page view.  
 A page view consists of a page id and a user id separated by a comma.  
@@ -24,6 +24,6 @@ bbcnews, user3
 For the above, `bbcnews` and `google` have an affinity of 2. `bbcnews` and `amazon` also have an affinity of 2.
 However, `google` and `amazon` have an affinity of 3.
 
-### Task
+## Task
 Write a method that takes a log file as input and returns the two distinct pages which have the highest affinity with each other.  
 Note that where there is more than one correct solution, any single correct solution will suffice.
